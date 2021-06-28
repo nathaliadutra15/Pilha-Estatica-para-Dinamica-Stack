@@ -1,6 +1,5 @@
 public class DynamicStack {
     private Node top;
-    private int QuantityElem =0;
 	
 //	Constructure
 	public DynamicStack() {
@@ -28,9 +27,6 @@ public class DynamicStack {
         this.QuantityElem = QuantityElem+1;
 	}
 
-    public int size(){
-        return this.QuantityElem;
-    }
 	
 //	Remove the element
 	public int pop() {
